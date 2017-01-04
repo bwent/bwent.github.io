@@ -1,29 +1,86 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <head>
+    
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 <style>
 h1 {
+    margin-top: 150px;
+    font-family: 'Abel';
+    font-size: 32px;
+    letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
-    color: #4CAF50;
+    color: darkmagenta;
 }
-p {
-    text-indent: 50px;
-    text-align: justify;
+h2 {
+    font-family: 'Abel';
+    font-size: 18px;
+    text-align: center;
     letter-spacing: 3px;
+    color: palevioletred;
 }
 a {
     text-decoration:none;
     color: #008CBA;
 }
+body {
+    background-color: aliceblue;    
+}
+    
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    font-family: 'Abel';
+    display: inline-block;
+    color: palevioletred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: gainsboro;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}    
+
 </style>
 </head>
 <body>
 
-<h1>text formatting</h1>
-<p>This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
-The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
-<a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+<ul class="topnav" id="myTopnav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul> 
+    
+<h1>Bridget Elise Went</h1>
+<h2> Italophile, designer and future software engineer.
+<a target="_blank" href="http://www.github.com/bwent">Github</a></p>
 
+
+    
+    
+    
 </body>
 </html>
