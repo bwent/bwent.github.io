@@ -4,83 +4,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 <head>
-    <link href="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-<style>
-h1 {
-    margin-top: 150px;
-    font-family: 'Abel';
-    font-size: 32px;
-    letter-spacing: 4px;
-    text-align: center;
-    text-transform: uppercase;
-    color: darkmagenta;
-}
-h2 {
-    font-family: 'Abel';
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 3px;
-    color: palevioletred;
-}
-a {
-    text-decoration:none;
-    color: #008CBA;
-}
-body {
-    background-color: aliceblue;    
-}
-    
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
+    <link rel="stylesheet" href="main.css">
+   
 
-/* Float the list items side by side */
-ul.topnav li {float: right;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    font-family: 'Abel';
-    display: inline-block;
-    color: palevioletred;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 14px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: gainsboro;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}    
-
-</style>
 </head>
 <body>
-
-<ul class="topnav" id="myTopnav">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">Projects</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+    
+<ul class="topnav" id="topmenubar">
+  <li><a href="#home">home</a></li>
+  <li><a href="#about">about</a></li>
+  <li class = "dropdown"> 
+      <a href="javascript:void(0)" class = "dropbtn"> projects </a>
+        <div class = "dropdown-content">
+            <a href="#">esplora</a><br>
+            <a href="#">symmetry works</a><br>
+            <a href="#">threeJS</a><br>
+      </div>
+    </li>
+ <li class = "dropdown"> 
+      <a href="javascript:void(0)" class = "dropbtn"> connect </a>
+        <div class = "dropdown-icon">
+            <a target="_blank" href = "https://www.facebook.com/bridget.went">
+                <img title = "Facebook" alt = "Facebook" src = "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width = "20"></a>
+            <a target="_blank" href = "https://www.linkedin.com/in/bridgetwent">
+                <img title = "LinkedIn" alt = "LinkedIn" src = "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width = "20"></a>
+            
+             <a target="_blank" href = "https://www.instagram.com/bridgetwent">
+                <img title = "Instagram" alt = "Instagram" src = "http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" width = "20"></a>
+            <a target="_blank" href = "https://medium.com/@bridget.went">
+                <img title = "Medium" alt = "Medium" src = "http://knightlab.northwestern.edu/assets/img/medium-logo.png" width = "30"></a>
+            <a target="_blank" href = "https://www.github.com/bwent">
+                <img title = "GitHub" alt = "GitHub" src = "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png" width = "20"></a>
+            
+     
+            
+      </div>
+    </li>
+  
+  
   <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <a href="javascript:void(0);" onclick="toggleResponsive()">&#9776;</a>
   </li>
-</ul> 
-    
-<h1>Bridget Elise Went</h1>
-<h2> Italophile, designer and future software engineer.
-<a target="_blank" href="http://www.github.com/bwent">Github</a></p>
+</ul>
+
+ 
+<div id = "main">
+   
 
 
+
+    <h1>Bridget Elise Went</h1>
+<h2> Italophile, espresso addict and future software engineer. </h2>
+<h3><a href="mailto:bridget.went@gmail.com?Subject=Hello!" target="_top"><img src = "https://openclipart.org/image/2400px/svg_to_png/29117/jean-victor-balin-icon-letter-mail.png" width = "30"></a></h3>
+<img id = "image" src = "http://lesindiennes.com/wp-content/uploads/2015/09/67-Emilie-1-800x800.jpg" height = "400">
+
+<div id = "about">
+    <h1> About </h1>
+    <p>
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        Graduating from Bowdoin College in 2017 with a Bachelor's degree in Computer Science and Mathematics and a minor in Italian language. Software Engineer at Okta in San Francisco starting September of 2017. 
+        
+        
+        
+    </p>
+</div>
+    
+</div>
+    
+<script>
+    function toggleResponsive() {
+        var x = document.getElementById("topmenubar");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
     
     
-    
+    </script>
+
 </body>
 </html>
