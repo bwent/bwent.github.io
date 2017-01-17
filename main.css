@@ -57,7 +57,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-icon {
     display: block;
-
+    overflow: hidden;
 }
 
 
@@ -65,8 +65,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
-
-
 
 
 @media screen and (max-width:680px) {
@@ -133,20 +131,28 @@ h3 a {
 }
 
 p {
-    float: right;
     text-align: justify;
     font-size: 18px;
     color: darkblue;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-bottom: 20px;
-    padding: 10px;
+    
     
 }
 
 #image {
     opacity: 0.5;
-    width: 100%
+    width: 100%;
+}
+
+#about {
+
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+}
+
+#about p{
+
+   margin: 0;
 }
 
 
