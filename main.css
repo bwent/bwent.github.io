@@ -73,23 +73,58 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
   }
-}
 
-@media screen and (max-width:680px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.topnav.responsive li {
+  
+ul.topnav.responsive li {
     float: none;
-    display: inline;
+    display: block;
+    
   }
-  ul.topnav.responsive li a {
+    
+    ul.topnav.responsive li a {
     display: block;
     text-align: left;
   }
+
+ul.topnav.responsive .dropdown-content {
+    
+    display: none;
+    position: relative;
+    font-size: 10px;
+    
+}
+    
+    ul.topnav.responsive .dropdown-icon {
+    
+    display: none;
+    position: relative;
+    font-size: 10px;
+    
+    
+}
+    
+    
+  ul.topnav.responsive .dropdown:hover .dropdown-content {
+    float: auto;
+    display: block;
+    
+  }
+    
+    ul.topnav.responsive .dropdown:hover .dropdown-icon {
+    float: auto;
+    display: block;
+    
+  }
+    
+  
+    
+  
 }
 
 
@@ -117,17 +152,20 @@ h2 {
     color: black;
     padding: 0px;
 }
-h3 a {
-    display: block;
-   font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 60px;
-    font-size: 14px;
-    letter-spacing: 3px;
+.icon {
+     font-weight: 300;
+    font-size: 20px;
     text-align: center;
-    color: darkblue; 
-    text-decoration: underline;
-    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    padding: 0px;
+}
+h3 {
+     font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    padding: 0px;
 }
 
 p {
@@ -138,22 +176,30 @@ p {
     
 }
 
-#image {
-    opacity: 0.5;
-    width: 100%;
-}
 
-#about {
-
-        padding: 10px;
+.image {
+     margin-top: 100px;
+        position: relative;
+        width: 100%;
         margin-right: 20px;
         margin-left: 20px;
+        height: auto;
 }
 
-#about p{
-
-   margin: 0;
+.image #about {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    right: 10%;
+  
 }
+
+
+.image img {
+    opacity: 0.2;
+}
+
+
 
 
 
