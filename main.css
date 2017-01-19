@@ -1,24 +1,31 @@
 body {
     font-family: "Avenir Next", sans-serif;
-    background-color: aliceblue; 
+    background-color: whitesmoke; 
     margin: 0 auto;
 }
 h1 {
-    margin-top: 150px;
+    margin-top: 80px;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 4vw;
     letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
-    color: darkmagenta;
+    color: paleturquoise;
 }
 h2 {
     font-weight: 300;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 1.8vw;
+    margin-left: 12%;
+    margin-right: 12%;
     text-align: center;
     letter-spacing: 3px;
-    color: black;
+    color: paleturquoise;
+    background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(100,100,100,0.5), rgba(255,255,255,0.2));
+  
     padding: 0px;
+
+    
 }
 
 h3 {
@@ -31,8 +38,8 @@ h3 {
 
 p {
     text-align: justify;
-    font-size: 18px;
-    color: darkblue;
+    font-size: 1.9vw;
+    color: darkslateblue;
     margin: 5%;
     
     
@@ -50,7 +57,7 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .profile:after {
@@ -93,18 +100,18 @@ ul.topnav li {float: left;}
 /* Style the links inside the list items */
 ul.topnav li a, .dropbtn {
     display: inline-block;
-    color: rebeccapurple;
+    color: darkslateblue;
     text-align: center;
     padding: 14px 16px;
     letter-spacing: 4px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 1.5vw;
 }
 
 /* Change background color of links on hover */
 ul.topnav li a:hover, .dropdown:hover .dropbtn {
-    background-color: 	#F0F0F0;
+    background-color: 	whitesmoke;
 }
 
 .dropdown {
@@ -177,7 +184,7 @@ ul.topnav.responsive .dropdown-content {
     
     display: none;
     position: relative;
-    font-size: 10px;
+    font-size: 1.5vw;
     
 }
     
@@ -185,7 +192,7 @@ ul.topnav.responsive .dropdown-content {
     
     display: none;
     position: relative;
-    font-size: 10px;
+    font-size: 1.5vw;
     
     
 }
